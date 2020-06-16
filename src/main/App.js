@@ -48,7 +48,7 @@ class App extends Component {
         <div className="App">
           <h2>To Do List</h2>
           <Form />
-          <List />
+          <List data={list} />
         </div>
       </Fragment>
     );
